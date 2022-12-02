@@ -1,0 +1,25 @@
+<div class="layout">
+  <header class="header">
+    <div class="menu-wrapper">
+      <nav>
+        <ul>
+          <li><a [routerLink]="['/sobre-mi']">Sobre mi</a></li>
+          <li><a [routerLink]="['/proyectos']">Proyectos</a></li>
+          <li><a [routerLink]="['/crear-proyecto']">Publicar un proyecto</a></li>
+          <li><a [routerLink]="['/contacto']">Contactame</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="welcome">
+    <div class="title">
+      <!-- <h1>Desarrollador web fullstack</h1> -->
+    </div>
+  </section>
+  <section class="content">
+    <router-outlet></router-outlet>
+  </section>
+  <footer class="footer">
+    Daniel Berroterán &copy;
+  </footer>
+</div>
